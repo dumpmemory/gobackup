@@ -1,8 +1,6 @@
 name: Release Docker Latest
 on:
-  push:
-    branches:
-      - "release-docker"
+  workflow_dispatch:
 
 jobs:
   docker:
